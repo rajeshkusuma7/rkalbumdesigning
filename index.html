@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,6 @@
 
 <style>
 
-/* RESET */
 body{
 margin:0;
 font-family:Arial;
@@ -20,8 +19,8 @@ overflow-x:hidden;
 header{
 display:flex;
 align-items:center;
-gap:10px;
-padding:15px;
+gap:12px;
+padding:15px 20px;
 background:#081f44;
 color:#f7c948;
 font-size:22px;
@@ -29,12 +28,13 @@ font-weight:bold;
 }
 
 header img{
-width:40px;
-height:40px;
-object-fit:contain;
+width:50px;
+height:50px;
+object-fit:cover;
+border-radius:6px;
 }
 
-/* HERO / BANNER */
+/* HERO BANNER */
 .hero{
 position:relative;
 width:100%;
@@ -57,7 +57,7 @@ font-size:42px;
 text-shadow:2px 2px 10px black;
 }
 
-/* SECTION TITLE */
+/* TITLE */
 .section-title{
 text-align:center;
 margin:25px 0;
@@ -80,6 +80,7 @@ border-radius:10px;
 color:white;
 text-decoration:none;
 font-weight:bold;
+transition:0.3s;
 }
 
 .card:hover{
@@ -92,7 +93,7 @@ footer{
 text-align:center;
 padding:20px;
 background:#081f44;
-margin-top:20px;
+margin-top:30px;
 }
 
 footer a{
@@ -107,16 +108,16 @@ text-decoration:none;
 
 <body>
 
-<!-- HEADER -->
+<!-- HEADER (LOGO + NAME) -->
 <header>
-<img src="images/banner.png">
+<img src="images/banner.png" alt="logo">
 RK Album Designing
 </header>
 
-<!-- BANNER -->
+<!-- HERO BANNER -->
 <section class="hero">
-<img src="images/banner.png">
-<h1>We Design Your Memories</h1>
+<img src="images/banner.png" alt="banner">
+
 </section>
 
 <!-- CATEGORIES -->
