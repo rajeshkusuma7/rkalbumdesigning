@@ -1,54 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RK Album Designing</title>
 
 <style>
-
 body{
 margin:0;
 font-family:Arial;
-background:#071a3d;
-color:#fff;
+background:#061a3a;
+color:white;
 }
 
-/* HEADER */
 header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 30px;
-background:#06142f;
-}
-
-.logo{
-font-size:26px;
-font-weight:bold;
+text-align:center;
+padding:20px;
+background:#081f44;
 color:#f7c948;
+font-size:22px;
+font-weight:bold;
 }
 
-/* HERO */
 .hero{
 text-align:center;
-padding:40px 20px;
-}
-
-.hero img{
-width:100%;
-max-width:1000px;
-border-radius:15px;
+padding:60px 20px;
+background:url("images/banner.png") center/cover no-repeat;
 }
 
 .hero h1{
-margin-top:20px;
-font-size:32px;
+font-size:40px;
 }
 
 .btn{
 display:inline-block;
-margin-top:15px;
+margin-top:20px;
 padding:12px 25px;
 background:#25D366;
 color:white;
@@ -57,106 +43,149 @@ border-radius:25px;
 font-weight:bold;
 }
 
-/* SERVICES */
-.categories{
-padding:40px 20px;
+.section-title{
 text-align:center;
+margin:30px 0;
+color:#f7c948;
+font-size:24px;
 }
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
 gap:15px;
-margin-top:20px;
+padding:20px;
 }
 
 .card{
 background:#102b5e;
 padding:20px;
+text-align:center;
 border-radius:10px;
 font-weight:bold;
-}
-
-/* FOOTER */
-footer{
-background:#06142f;
-padding:25px;
-text-align:center;
-margin-top:40px;
-}
-
-.social-links{
-display:flex;
-justify-content:center;
-gap:15px;
-flex-wrap:wrap;
-margin-top:15px;
-}
-
-.social-links a{
-background:#102b5e;
-color:white;
-padding:10px 15px;
-border-radius:8px;
 text-decoration:none;
-font-weight:bold;
+color:white;
+transition:0.3s;
 }
 
-.social-links a:hover{
+.card:hover{
 background:#f7c948;
-color:#071a3d;
+color:black;
+transform:scale(1.05);
 }
 
+footer{
+text-align:center;
+padding:20px;
+background:#081f44;
+margin-top:30px;
+}
+
+.social a{
+margin:10px;
+color:white;
+text-decoration:none;
+}
 </style>
 
 </head>
 
 <body>
 
-<header>
-<div class="logo">RK Album Designing</div>
-</header>
+<header>RK Album Designing</header>
 
 <section class="hero">
-
-<img src="images/banner.png">
-
 <h1>We Design Your Memories</h1>
-
-<a class="btn" href="https://wa.me/918886496535">WhatsApp Us</a>
-
+<a class="btn" href="https://wa.me/918886496535">WhatsApp Booking</a>
 </section>
 
-<section class="categories">
-
-<h2>Our Services</h2>
+<h2 class="section-title">Categories</h2>
 
 <div class="grid">
 
-<div class="card">Wedding</div>
-<div class="card">Birthday</div>
-<div class="card">Engagement</div>
-<div class="card">Baby Shower</div>
-<div class="card">Events</div>
+<a class="card" href="wedding.html">Wedding</a>
+<a class="card" href="engagement.html">Engagement</a>
+<a class="card" href="haldi.html">Haldi</a>
+<a class="card" href="prewedding.html">Pre Wedding</a>
+<a class="card" href="birthday.html">Birthday</a>
+<a class="card" href="babyshower.html">Baby Shower</a>
+<a class="card" href="maternity.html">Maternity</a>
+<a class="card" href="cradle.html">Cradle Ceremony</a>
+<a class="card" href="naming.html">Naming Ceremony</a>
+<a class="card" href="housewarming.html">House Warming</a>
+<a class="card" href="events.html">Events</a>
 
 </div>
-
-</section>
 
 <footer>
-
-<p>RK Album Designing</p>
-<p>📞 8886496535</p>
-<p>📧 rajeshkusuma7@gmail.com</p>
-
-<div class="social-links">
-
+<div class="social">
 <a href="https://wa.me/918886496535">WhatsApp</a>
 <a href="https://instagram.com/rajesh_kusuma7">Instagram</a>
-
 </div>
-
 </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wedding</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#061a3a;
+color:white;
+}
+
+header{
+text-align:center;
+padding:20px;
+background:#081f44;
+color:#f7c948;
+font-weight:bold;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:10px;
+padding:20px;
+}
+
+img{
+width:100%;
+border-radius:10px;
+}
+
+.btn{
+display:block;
+text-align:center;
+margin:20px;
+padding:12px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>Wedding Album Designs</header>
+
+<a class="btn" href="https://wa.me/918886496535">Book on WhatsApp</a>
+
+<div class="grid">
+<img src="images/w1.jpg">
+<img src="images/w2.jpg">
+<img src="images/w3.jpg">
+</div>
 
 </body>
 </html>
