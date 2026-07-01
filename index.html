@@ -7,13 +7,20 @@
 
 <style>
 
-body{
+/* RESET */
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
 font-family:Arial;
 background:#061a3a;
 color:white;
 }
 
+/* HEADER */
 header{
 display:flex;
 align-items:center;
@@ -31,6 +38,7 @@ height:40px;
 object-fit:contain;
 }
 
+/* HERO */
 .hero{
 text-align:center;
 padding:15px;
@@ -50,12 +58,14 @@ margin-top:10px;
 font-size:28px;
 }
 
+/* TITLE */
 .section-title{
 text-align:center;
 color:#f7c948;
 margin:20px 0;
 }
 
+/* GRID */
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
@@ -78,6 +88,7 @@ background:#f7c948;
 color:black;
 }
 
+/* FOOTER */
 footer{
 text-align:center;
 padding:20px;
@@ -89,18 +100,25 @@ footer a{
 color:white;
 margin:0 10px;
 text-decoration:none;
+font-weight:bold;
 }
 
+/* WHATSAPP FLOAT */
 .whatsapp{
 position:fixed;
 bottom:20px;
 right:20px;
 background:#25D366;
 color:white;
+font-size:24px;
 padding:15px;
 border-radius:50%;
-font-size:22px;
+display:flex;
+align-items:center;
+justify-content:center;
 text-decoration:none;
+box-shadow:0 0 10px black;
+z-index:999;
 }
 
 </style>
@@ -109,16 +127,19 @@ text-decoration:none;
 
 <body>
 
+<!-- HEADER -->
 <header>
-<img src="images/logo.png">
+<img src="images/banner.png">
 RK Album Designing
 </header>
 
+<!-- HERO -->
 <div class="hero">
 <img src="images/banner.png">
 <h1>We Design Your Memories</h1>
 </div>
 
+<!-- CATEGORIES -->
 <h2 class="section-title">Categories</h2>
 
 <div class="grid">
@@ -132,13 +153,17 @@ RK Album Designing
 <a class="card" href="#">Events</a>
 </div>
 
+<!-- FOOTER -->
 <footer>
-<a href="https://wa.me/918888496535">WhatsApp</a>
-<a href="https://instagram.com/rajesh_kusuma7">Instagram</a>
+<a href="https://wa.me/918886496535" target="_blank">WhatsApp</a>
+<a href="https://instagram.com/rajesh_kusuma7" target="_blank">Instagram</a>
 <p>© RK Album Designing</p>
 </footer>
 
-<a class="whatsapp" href="https://wa.me/918888496535">💬</a>
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp" href="https://wa.me/918886496535" target="_blank">
+💬
+</a>
 
 </body>
 </html>
